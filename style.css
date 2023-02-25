@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@400;500&display=swap");
+
+/* GLOBAL */
+body,
+h1,
+h2,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  max-width: 667px;
+}
+
+h1 {
+  font-family: "Bad Script", cursive;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* SECTION 1 */
+.section1 {
+  background: url("img/bgFlower.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 .box {
+  background-color: #3cafd1;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.box .boxDetail {
+  /* margin: 3rem 0; */
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+
+.boxDetail p {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+}
+
+.boxDetail h1 {
+  font-size: rem;
+  font-weight: 400;
+}
+
+.boxDetail .date {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxDetail .year p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.boxDetail .date .day p {
+  margin: 0px;
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+.boxDetail .date .month p {
+  margin: 0px;
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+.boxDetail .date .dateDetail p {
+  margin: 0px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.boxDetail .date .day {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  width: 6rem;
+  display: grid;
+  place-items: center;
+}
+
+.boxDetail .date .month {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  width: 6rem;
+  display: grid;
+  place-items: center;
+}
+
+/* SECTION QURAN */
+.boxQuran {
+  background-color: #3cafd1;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.flowerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.flower {
+  background: url("img/flower.png") no-repeat;
+  background-size: contain;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.textQuranWrapper1 {
+  display: grid;
+  place-items: center;
+  margin: 1rem 0;
+}
+.textQuranWrapper2 {
+  margin: 1rem 0 0 0;
+  line-height: 2;
+}
+/* .textQuranWrapper3 {
+  display: grid;
+  place-items: center;
+  margin: 0.5rem 0;
+} */
+.textQuranWrapper4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+.textQuranWrapper5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textQuran1 p {
+  color: #fff;
+  font-size: 0.85rem;
+}
+.textQuran2 p {
+  color: #fff;
+  font-size: 0.8rem;
+  width: 80vw;
+  text-align: center;
+}
+/* .textQuran3 p {
+  color: #fff;
+  font-size: 0.85rem;
+  width: 70vw;
+} */
+.textQuran4 p {
+  color: #fff;
+  font-size: 0.7rem;
+  width: 80vw;
+  text-align: center;
+}
+.textQuran5 p {
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+/* SECTION 2 */
+.section2 {
+  background: url("img/bgFlower.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section2 .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text h2 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 2rem 0 0 1rem;
+}
+.text p {
+  font-size: 0.65rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0.75rem 0 1.5rem 0;
+  width: 90vw;
+}
+
+.man {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.woman h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.man h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.woman p {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.1rem 5rem;
+}
+.man p {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.1rem 5rem;
+}
+
+.element {
+  display: grid;
+  place-items: center;
+  margin: 2.5rem 0;
+}
